@@ -25,7 +25,12 @@ jobs:
 
     - name: npm install, build, and test
       run: |
-        npm init
+        npm install
+    - name: install depedencies
+      run: |
+        npm install node-c-parser --save
+        npm install express --save
+        npm install fs --save
 
     - name: Run Azure webapp deploy action using publish profile credentials
       uses: azure/webapps-deploy@v2
