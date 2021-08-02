@@ -29,11 +29,6 @@ jobs:
         npm run build --if-present
         npm run test --if-present
         
-    - name: npm install modules
-      run: |
-        npm install express --save
-        npm install fs --save
-        npm install node-c-parser --save
         
     - name: npm run app
       run: |
