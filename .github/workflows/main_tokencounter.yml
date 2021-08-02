@@ -26,6 +26,11 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
+    - name: install depedencies
+      run: |
+        npm install node-c-parser --save
+        npm install express --save
+        npm install fs --save
     - name: run application
       run: |
         node app.js
