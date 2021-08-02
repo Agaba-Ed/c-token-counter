@@ -1,0 +1,20 @@
+{
+  "name": "c-token-counter",
+  "version": "1.0.0",
+  "description": "A program for automating the process of calculating halstead metrics of a C program(ANSI standard)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agaba-Ed/c-token-counter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agaba-Ed/c-token-counter/issues"
+  },
+  "homepage": "https://github.com/Agaba-Ed/c-token-counter#readme"
+}
