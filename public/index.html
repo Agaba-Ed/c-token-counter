@@ -148,7 +148,7 @@
         },
         body: JSON.stringify(data)
     }
-        fetch('/analyse',options).then(response=>{
+        fetch('https://tokencounter.azurewebsites.net/analyse',options).then(response=>{
             if(!response.ok){
                 console.error(response);
             }

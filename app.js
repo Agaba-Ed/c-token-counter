@@ -12,7 +12,7 @@ app.listen(port,function(err){
     if(err){
         console.log(err);}
     else
-        console.log('server is running at port 3000');
+        console.log('server is running at port '+port); 
 });
 
 
