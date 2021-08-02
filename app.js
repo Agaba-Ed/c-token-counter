@@ -2,12 +2,13 @@ const parser=require('node-c-parser');
 const express=require('express');
 const bodyParser=require('body-parser');
 const fs=require('fs');
+var port=process.env.PORT || 3000;
 
 var app=express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.listen(3000,function(err){
+app.listen(port,function(err){
     if(err){
         console.log(err);}
     else
