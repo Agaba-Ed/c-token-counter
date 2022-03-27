@@ -50,10 +50,7 @@ node app.js
 
 
 ## About
-
-c token counter is a CASE tool for measuring software to determine properties such as effort, program length e.t.c that can be used in planning and project management.  
-The system displays values of intermediate parameters that are needed as inputs for formulas used in calculating halstead metrics of a C program ANSI standard
-To ensure that users find ease in understanding the results of the metrics, these values are shown in a table format , and the final computations underneath with their units.
+A program for automating the process of calculating halstead metrics for C (ANSI standard)
 
 
 ## License
